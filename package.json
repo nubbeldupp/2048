@@ -1,0 +1,14 @@
+{
+  "name": "2048-game",
+  "version": "1.0.0",
+  "description": "2048 Game Web Application",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0"
+  }
+}
