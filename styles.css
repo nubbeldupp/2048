@@ -61,17 +61,63 @@ h1 {
     transition: all 0.2s ease-in-out;
 }
 
-.tile-2 { background-color: #eee4da; }
-.tile-4 { background-color: #ede0c8; }
-.tile-8 { background-color: #f2b179; color: white; }
-.tile-16 { background-color: #f59563; color: white; }
-.tile-32 { background-color: #f67c5f; color: white; }
-.tile-64 { background-color: #f65e3b; color: white; }
-.tile-128 { background-color: #edcf72; color: white; font-size: 1.8rem; }
-.tile-256 { background-color: #edcc61; color: white; font-size: 1.8rem; }
-.tile-512 { background-color: #edc850; color: white; font-size: 1.8rem; }
-.tile-1024 { background-color: #edc53f; color: white; font-size: 1.5rem; }
-.tile-2048 { background-color: #edc22e; color: white; font-size: 1.5rem; }
+.tile-2 { 
+    background-color: #eee4da; 
+}
+
+.tile-4 { 
+    background-color: #ede0c8; 
+}
+
+.tile-8 { 
+    background-color: #f2b179; 
+    color: white; 
+}
+
+.tile-16 { 
+    background-color: #f59563; 
+    color: white; 
+}
+
+.tile-32 { 
+    background-color: #f67c5f; 
+    color: white; 
+}
+
+.tile-64 { 
+    background-color: #f65e3b; 
+    color: white; 
+}
+
+.tile-128 { 
+    background-color: #edcf72; 
+    color: white; 
+    font-size: 1.8rem; 
+}
+
+.tile-256 { 
+    background-color: #edcc61; 
+    color: white; 
+    font-size: 1.8rem; 
+}
+
+.tile-512 { 
+    background-color: #edc850; 
+    color: white; 
+    font-size: 1.8rem; 
+}
+
+.tile-1024 { 
+    background-color: #edc53f; 
+    color: white; 
+    font-size: 1.5rem; 
+}
+
+.tile-2048 { 
+    background-color: #edc22e; 
+    color: white; 
+    font-size: 1.5rem; 
+}
 
 #new-game {
     margin-top: 20px;
