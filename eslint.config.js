@@ -10,7 +10,8 @@ export default [
       globals: {
         // Game-specific global variables
         "document": "readonly",
-        "window": "readonly"
+        "window": "readonly",
+        "localStorage": "readonly"
       }
     },
     rules: {
