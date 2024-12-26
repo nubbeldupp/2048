@@ -11,7 +11,8 @@ export default [
         // Game-specific global variables
         "document": "readonly",
         "window": "readonly",
-        "localStorage": "readonly"
+        "localStorage": "readonly",
+        "alert": "readonly"
       }
     },
     rules: {
@@ -25,7 +26,17 @@ export default [
       "no-implied-eval": "error",
       
       // Style
-      "indent": ["error", 2],
+      "indent": ["error", 2, { 
+        "SwitchCase": 1,
+        "VariableDeclarator": 1,
+        "outerIIFEBody": 1,
+        "MemberExpression": 1,
+        "FunctionDeclaration": {"parameters": "first"},
+        "FunctionExpression": {"parameters": "first"},
+        "CallExpression": {"arguments": "first"},
+        "ArrayExpression": "first",
+        "ObjectExpression": "first"
+      }],
       "quotes": ["error", "single"],
       "semi": ["error", "always"],
       "no-multiple-empty-lines": ["error", { "max": 2 }],
