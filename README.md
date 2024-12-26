@@ -19,3 +19,22 @@ docker-compose up --build
 ```bash
 docker-compose down
 ```
+
+## GitHub Actions
+This repository includes two GitHub Actions workflows:
+
+1. **Continuous Integration (CI)**: 
+   - Lints HTML, CSS, and JavaScript files
+   - Runs on pushes and pull requests to `main` and `master` branches
+
+2. **Docker Image Build and Publish**:
+   - Builds Docker image
+   - Publishes to GitHub Container Registry
+   - Triggered on pushes, tags, and pull requests to `main` and `master` branches
+
+### Workflow Details
+- **CI Workflow**: Uses `htmlhint`, `stylelint`, and `eslint` for code quality checks
+- **Docker Workflow**: 
+  - Uses Docker Buildx for multi-platform builds
+  - Publishes images to GitHub Container Registry
+  - Supports versioned and branch-based tags
