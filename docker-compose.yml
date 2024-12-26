@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5565:5565"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html
+      - ./game.js:/usr/share/nginx/html/game.js
+      - ./styles.css:/usr/share/nginx/html/styles.css
